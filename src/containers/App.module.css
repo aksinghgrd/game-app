@@ -1,0 +1,9 @@
+body {
+    margin-left: 8%;
+    margin-right: 8%;
+    font-family: "RooneySans-Regular", "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", sans-serif;
+}
+
+h1, h4 {
+    text-align: center;
+}

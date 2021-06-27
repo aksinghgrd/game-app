@@ -1,0 +1,51 @@
+  
+  .wrapper {
+    text-align: center;
+  }
+
+  .container {
+    display: inline-flex;
+    width: 96%;
+    margin: 2%;
+  }
+
+  .first, .last {
+    width: 15%;
+  }
+
+  .middle{
+    width: 70%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .search {
+    padding: 10px;
+    font-size: 14pt;
+    border: 1px solid grey;
+    width: 50%;
+    border-radius: 20px;
+    box-sizing: border-box;
+  }
+
+  .lbl {
+    padding-top: 5px;
+    min-height: 35px;
+  }
+
+  @media screen and (max-width: 800px) {
+    .first, .last, .search {
+      width: 100%; 
+    }
+    .middle {
+      width: 100%;
+      padding: 0px;
+    }
+    .container, .middle {
+      display: block;
+      width: 100%;
+      margin: 0px;
+    }
+  }
+
+
