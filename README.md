@@ -3,6 +3,8 @@
 ## Available Scripts
 
 In the project directory, you can run:
+### `npm install`
+To Install all the library 
 
 ### `npm start`
 
